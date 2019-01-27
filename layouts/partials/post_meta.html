@@ -5,15 +5,17 @@
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $dateFormat }}</time>
     {{- end -}}
 
+    <div class="tags">
     {{- range $taxo, $taxonomy := .Site.Taxonomies }}
         {{- $elems := $.Param $taxo }}
             {{- if $elems }}
         {{ $taxo | humanize }}
             {{- range $name := $elems }}
                 {{- with $.Site.GetPage (lower (printf "/%s/%s" $taxo (urlize $name))) }}
-        <a href="{{ .Permalink }}">{{ $name }}</a>
+        <a class="tag" href="{{ .Permalink }}">{{ $name }}</a>
                 {{- end }}
             {{- end }}
         {{- end }}
     {{- end }}
+    </div>
 </div>
