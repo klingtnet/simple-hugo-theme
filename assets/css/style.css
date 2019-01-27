@@ -1,16 +1,12 @@
 body {
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.6;
-    font-size: 18px;
     color: #444;
-    padding: 0 10px;
+    margin: 1em auto;
+    max-width: 45em;
+    line-height: 1.6
 }
 
-h1,
-h2,
-h3 {
-    line-height: 1.2
+h1 {
+    border-bottom: 3pt solid #ffe74c;
 }
 
 .header-menu {
@@ -24,13 +20,14 @@ ul.pagination {
 }
 
 ul.pagination>li {
-    padding: 0 8px;
-    display: inline-block;
+    padding: 0 .4em;
+    display: inline-block
 }
 
 div.footer {
-    border-top: 1px solid;
+    border-top: 1pt solid;
     text-align: center;
+    padding: 1em;
 }
 
 img {
