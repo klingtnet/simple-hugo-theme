@@ -2,7 +2,9 @@ body {
     margin: 1em auto;
     color: #2f2d2e;
     max-width: 45em;
-    line-height: 1.6
+    line-height: 1.6;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
 }
 
 h1 {
