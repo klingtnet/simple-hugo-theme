@@ -13,15 +13,6 @@ h3 {
     line-height: 1.2
 }
 
-div.header h1 {
-    padding-top: 0;
-    padding-bottom: 8px;
-    margin-bottom: 24px;
-    font-size: 18px;
-    font-weight: 400;
-    border-bottom: 1px solid;
-}
-
 .header-menu {
     float: right;
 }
@@ -32,7 +23,7 @@ ul.pagination {
     padding: 0;
 }
 
-ul.pagination > li {
+ul.pagination>li {
     padding: 0 8px;
     display: inline-block;
 }
