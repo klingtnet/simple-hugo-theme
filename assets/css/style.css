@@ -41,8 +41,10 @@ img {
     margin-right: auto;
 }
 
-div.tags {
-    float: right;
+@media (min-width: 45em) {
+    div.tags {
+        float: right;
+    }
 }
 
 img.half {
