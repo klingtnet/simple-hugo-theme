@@ -1,6 +1,6 @@
 <header>
     <h1 id="#{{ .Title | anchorize }}">
-        <a class=".anchor" href="#{{ .Title | anchorize }}">🔗</a>
+        <a class="anchor" href="#{{ .Title | anchorize }}">🔗</a>
         {{- .Title | markdownify -}}
     </h1>
     {{ partial "post_meta.html" . }}

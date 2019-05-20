@@ -73,3 +73,7 @@ a.tag {
     text-decoration: none;
     border-radius: 5pt;
 }
+
+a.anchor {
+    padding-right: 0.3em;
+}
