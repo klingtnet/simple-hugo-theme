@@ -47,7 +47,7 @@ img {
     }
 }
 
-img.half {
+img[src*="#half"] {
     width: 50%;
 }
 
